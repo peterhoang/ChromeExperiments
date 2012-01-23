@@ -1,0 +1,49 @@
+/*
+
+HTML Framework 
+Version 0.1 Beta, July 14, 2009
+Author: JD Graffam, http://jdgraffam.com/
+Source: http://htmlframework.com/
+Documentation: http://htmlframework.com/documentation.html
+
+*/
+
+/* Setting the Stage
+--------------------------------------------------------- */
+	body{
+		width:960px;
+		margin:auto;
+		}
+	
+		#header,
+		#navigation,
+		#content,
+		#footer{
+			overflow:hidden;
+			}
+			
+		#header{
+			width:150px;
+			float:left;
+			}
+		
+		#navigation{
+			width:620px;
+			float:right;
+			}
+		
+		#content{
+			clear:both;
+			}
+
+/* Navigation
+--------------------------------------------------------- */
+#navigation li{
+	display:inline;
+	float:left;
+	margin-right:1px;
+	}
+	
+	#navigation a{
+		display:block;
+		}
